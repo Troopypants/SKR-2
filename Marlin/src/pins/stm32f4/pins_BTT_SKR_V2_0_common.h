@@ -226,19 +226,19 @@
   #define HEATER_0_PIN                      PB3   // Heater0
 #endif
 #ifndef HEATER_1_PIN
-  #define HEATER_1_PIN                      PB4   // Heater1
+  #define HEATER_1_PIN                      PB4   // Heater1 NOW HOTEND FAN
 #endif
 #ifndef HEATER_BED_PIN
   #define HEATER_BED_PIN                    PD7   // Hotbed
 #endif
 #ifndef FAN_PIN
-  #define FAN_PIN                           PB7   // Fan0
+  #define FAN_PIN                           PB5   // Fan0 
 #endif
 #ifndef FAN1_PIN
-  #define FAN1_PIN                          PB6   // Fan1
+  #define FAN1_PIN                          PB6   // Fan1 CASE FAN
 #endif
 #ifndef FAN2_PIN
-  #define FAN2_PIN                          PB5   // Fan2
+  #define FAN2_PIN                          PB7   // Fan2 
 #endif
 
 //
